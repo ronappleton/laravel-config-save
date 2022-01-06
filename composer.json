@@ -1,0 +1,28 @@
+{
+  "name": "ronappleton/laravel-config-save",
+  "description": "A method of persisting Laravel config changes",
+  "type": "library",
+  "require": {
+    "laravel/framework": "8.x-dev"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ronappleton\\LaravelConfigSave\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ron Appleton",
+      "email": "ron@appleton.digital"
+    }
+  ],
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "aliases": {
+        "ConfigSaver": "Ronsppleton\\LaravelConfigSaver\\Facades\\ConfigSaver"
+      }
+    }
+  }
+}
